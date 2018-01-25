@@ -10,7 +10,7 @@ public class BaseTest {
 
     @BeforeTest
     public void setup(){
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.drivklkler", "C:\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get(startUrl);
         driver.manage().window().maximize();
